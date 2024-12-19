@@ -5,8 +5,8 @@ import { FloatingNav } from "@/components/ui/FloatingNavbar";
 import { navItems } from "@/data";
 import PhotographyPage from "@/components/PhotographyPage";
 import PhotoGrid from "@/components/PhotoGrid";
-import Image from "next/image";
 import Illustraions from "@/components/Illustraions";
+import BrandDesign from "@/components/BrandDesign";
 
 export default function Home() {
   return (
@@ -16,6 +16,7 @@ export default function Home() {
         <PhotographyPage/>
         <PhotoGrid/>
         <Illustraions/>
+        <BrandDesign/>
         <Testimonials/>
         <Footer/>
     </main>
