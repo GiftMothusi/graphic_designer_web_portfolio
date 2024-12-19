@@ -9,7 +9,11 @@ const Hero = () => {
     <section className='h-screen flex flex-col md:flex-row items-center'>
       <div className='md:w-1/2 relative max-w-fit'>
         <Image src={hero_img} alt="hero-banner" className='h-screen bg-red-500 max-w-fit'/>
-        <Image src={hero_logo} alt="logo" className='absolute bottom-4 left-4 w-[100px]'/>
+        <Image 
+          src={hero_logo} 
+          alt="logo" 
+          className='absolute bottom-4 left-1/2 transform -translate-x-1/2 w-[300px]'
+        />
       </div>
       
       <div className='w-full md:w-1/2 px-4 py-8 md:py-0'>
