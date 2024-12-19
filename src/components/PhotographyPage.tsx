@@ -1,12 +1,17 @@
 import React from 'react'
 import Image from 'next/image'
+import TextBanner from './TextBanner'
 import { card3 } from '../../public/assets/images'
 
 const PhotographyPage = () => {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 p-6">
-      <h1 className='text-[200px] font-bold text-center mb-12'>Photography</h1>
-      
+       <TextBanner 
+        text="Photography" 
+        size="large"
+        withDivider
+        className="bg-gray-100"
+      />
       <div className="max-w-6xl w-full grid md:grid-cols-2 gap-8 bg-white shadow-lg rounded-lg overflow-hidden mx-auto">
         
         {/* Image Section */}

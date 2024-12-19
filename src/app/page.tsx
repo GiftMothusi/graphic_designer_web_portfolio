@@ -6,6 +6,7 @@ import { navItems } from "@/data";
 import PhotographyPage from "@/components/PhotographyPage";
 import PhotoGrid from "@/components/PhotoGrid";
 import Image from "next/image";
+import Illustraions from "@/components/Illustraions";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
         <Hero/>
         <PhotographyPage/>
         <PhotoGrid/>
+        <Illustraions/>
         <Testimonials/>
         <Footer/>
     </main>
