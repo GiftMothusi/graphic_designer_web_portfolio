@@ -8,6 +8,7 @@ import PhotoGrid from "@/components/PhotoGrid";
 import Illustraions from "@/components/Illustraions";
 import BrandDesign from "@/components/BrandDesign";
 import PrintDesign from "@/components/PrintDesign";
+import UxDesign from "@/components/UxDesign";
 
 
 
@@ -21,6 +22,7 @@ export default function Home() {
         <Illustraions/>
         <BrandDesign/>
         <PrintDesign/>
+        <UxDesign/>
         <Testimonials/>
         <Footer/>
     </main>
