@@ -8,7 +8,7 @@ const Hero = () => {
   return (
     <section className='h-screen flex flex-col md:flex-row items-center'>
       <div className='md:w-1/2 relative max-w-fit'>
-        <Image src={hero_img} alt="hero-banner" className='h-screen bg-red-500 max-w-fit'/>
+        <Image src={hero_img} alt="hero-banner" className='h-screen max-w-fit'/>
         <Image 
           src={hero_logo} 
           alt="logo" 

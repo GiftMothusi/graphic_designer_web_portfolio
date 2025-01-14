@@ -7,6 +7,9 @@ import PhotographyPage from "@/components/PhotographyPage";
 import PhotoGrid from "@/components/PhotoGrid";
 import Illustraions from "@/components/Illustraions";
 import BrandDesign from "@/components/BrandDesign";
+import PrintDesign from "@/components/PrintDesign";
+
+
 
 export default function Home() {
   return (
@@ -17,6 +20,7 @@ export default function Home() {
         <PhotoGrid/>
         <Illustraions/>
         <BrandDesign/>
+        <PrintDesign/>
         <Testimonials/>
         <Footer/>
     </main>
